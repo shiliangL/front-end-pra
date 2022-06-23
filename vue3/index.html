@@ -1,0 +1,42 @@
+<!--
+ * @Author: shiliangL
+ * @Date: 2022-06-23 10:33:59
+ * @LastEditTime: 2022-06-23 10:36:36
+ * @LastEditors: Do not edit
+ * @Description: 
+-->
+<!--
+ * @Author: shiliangL
+ * @Date: 2022-06-23 10:30:47
+ * @LastEditTime: 2022-06-23 10:30:49
+ * @LastEditors: Do not edit
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3.2.36/dist/vue.global.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        {{ message }}
+    </div>
+    <script>
+       const App = {
+            data() {
+                return {
+                    message: 'Hello Vue3!!'
+                }
+            }
+        }
+        Vue.createApp(App).mount('#app')
+    </script>
+</body>
+
+</html>
